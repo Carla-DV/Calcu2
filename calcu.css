@@ -1,0 +1,46 @@
+body {
+    background: rgb(0, 0, 0);
+
+}
+
+#app{
+    height: 400px;
+    width: 300px;
+    border: 1px solid rgb(27, 205, 233);
+    border-radius: 5px;
+    margin: auto;
+    
+}
+
+#app form {
+height: 100%;
+width: 100%;
+background-color: rgba(77, 203, 199, 0.899);
+}
+
+#app input[type=textfield] {
+    height: 10%;
+    width: 90%;
+    cursor: default;
+    font-family:'Nerko One';
+    background-color: rgba(43, 176, 165, 0.615);
+    color: white;
+    padding: 15px;
+    text-align: right;
+    font-size: 50px;
+    border: 0px;
+    outline: none;
+}
+
+#app input[type=button], input[type=reset]{
+width: 22%;
+cursor: pointer;
+font-family: 'Nerko One';
+font-weight: bold;
+font-size: 26px;
+color: rgb(0, 0, 0);
+padding: 18px;
+margin: 3px;
+border: 10px;
+border-radius: 100%;
+}

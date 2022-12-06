@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Calculadora</title>
+        
+        <link rel="stylesheet" href="./calcu.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+        <div id="app">
+            <form name="calcu">
+                <input type="textfield" name="respuesta" value=" " autocomplete="off" readonly>
+                <input type="button" value="7" onclick="document.calcu.respuesta.value+=7">
+                <input type="button" value="8" onclick="document.calcu.respuesta.value+=8">
+                <input type="button" value="9" onclick="document.calcu.respuesta.value+=9">
+                <input type="button" value="+" onclick="document.calcu.respuesta.value+='+'">
+                <br>
+                <input type="button" value="4" onclick="document.calcu.respuesta.value+='4'">
+                <input type="button" value="5" onclick="document.calcu.respuesta.value+='5'">
+                <input type="button" value="6" onclick="document.calcu.respuesta.value+='6'">
+                <input type="button" value="-" onclick="document.calcu.respuesta.value+='-'">
+                <br>
+                <input type="button" value="1" onclick="document.calcu.respuesta.value+='1'">
+                <input type="button" value="2" onclick="document.calcu.respuesta.value+='2'">
+                <input type="button" value="3" onclick="document.calcu.respuesta.value+='3'">
+                <input type="button" value="*" onclick="document.calcu.respuesta.value+='*'">
+                <br>
+                <input type="button" value="0" onclick="document.calcu.respuesta.value+='0'">
+                <input type="reset" value="C">
+                <input type="button" value="=" onclick="document.calcu.respuesta.value=eval(document.calcu.respuesta.value)">
+                <input type="button" value="/" onclick="document.calcu.respuesta.value+='/'">
+            </form>
+            </div>
+
+    </body>
+</html>
